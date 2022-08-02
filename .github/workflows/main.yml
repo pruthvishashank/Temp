@@ -11,7 +11,7 @@ env:
 jobs:
   build:
     environment: Development
-    runs-on: ${{secrets.RUNNER}}
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
       - name: Setup MSBuild
